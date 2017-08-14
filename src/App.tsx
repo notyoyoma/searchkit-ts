@@ -8,12 +8,11 @@ import { SearchkitManager,SearchkitProvider,
   ViewSwitcherHits, ViewSwitcherToggle, DynamicRangeFilter,
   InputFilter, GroupedSelectedFilters,
   Layout, TopBar, LayoutBody, LayoutResults,
-  ActionBar, ActionBarRow, SideBar } from 'searchkit'
+  ActionBar, ActionBarRow, SideBar } from 'searchkit/src'
 import './index.css'
 
 
 
-const logo = require('./logo.svg');
 const host = "http://demo.searchkit.co/api/movies"
 const searchkit = new SearchkitManager(host)
 
